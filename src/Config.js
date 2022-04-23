@@ -1,7 +1,7 @@
 // 前端 API 路徑
 // API請寫在自己的分類下方~~~~~
 
-const host = 'https://primeal.herokuapp.com/';
+const host = 'https://primeal.herokuapp.com';
 
 const config = {
   // 首頁
