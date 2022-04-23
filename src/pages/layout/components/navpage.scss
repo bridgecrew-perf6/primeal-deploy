@@ -1,0 +1,129 @@
+.navbar {
+  background-color: #841d29;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  .close-btn {
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #eed19a;
+    color: #b03342;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    right: 1.5rem;
+    top: 3rem;
+    cursor: pointer;
+    z-index: 1;
+  }
+  .login-icon,
+  .cart-icon {
+    margin-left: 2rem;
+    cursor: pointer;
+  }
+  .nav-bottom {
+    position: absolute;
+    right: 3rem;
+    bottom: 5rem;
+  }
+  .navbar-content {
+    display: flex;
+    width: 100%;
+  }
+  .nav-img {
+    position: absolute;
+    top: -3rem;
+    left: -10rem;
+    transition: 0.5s;
+    animation: machinedown 1s ease-in-out;
+  }
+  @keyframes machinedown {
+    from {
+      top: -8rem;
+    }
+    to {
+      top: -2rem;
+    }
+  }
+  .nav-img img {
+    width: 70%;
+  }
+  .nav-area {
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    color: #ffffff;
+    transition: 0.5s;
+    animation: textdown 1s ease-in-out;
+  }
+  @keyframes textdown {
+    from {
+      top: 10%;
+    }
+    to {
+      top: 30%;
+    }
+  }
+  .nav-content {
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
+  .en-txt {
+    margin-bottom: 0.3rem;
+  }
+  @media screen and (min-width: 576px) {
+    .nav-area {
+      top: 30%;
+      right: 10%;
+      display: flex;
+      flex-direction: row-reverse;
+    }
+    .close-btn {
+      right: 4rem;
+      top: 3rem;
+    }
+    .nav-bottom {
+      right: 5rem;
+      bottom: 5rem;
+    }
+    .nav-content {
+      margin-left: 2rem;
+      display: flex;
+      flex-direction: row-reverse;
+      flex-grow: 1;
+    }
+    .en-txt {
+      margin: 0 0;
+      writing-mode: vertical-rl;
+    }
+    .ch-txt {
+      margin: 0 0;
+      writing-mode: vertical-rl;
+      letter-spacing: 0.5rem;
+    }
+  }
+  @media screen and (min-width: 961px) {
+    .close-btn {
+      right: 9rem;
+      top: 3rem;
+    }
+    .nav-bottom {
+      right: 11rem;
+      bottom: 5rem;
+    }
+    .nav-img {
+      position: absolute;
+      left: -10rem;
+      top: -2rem;
+      transition: 0.5s;
+    }
+    .nav-img img {
+      width: 90%;
+    }
+  }
+}
