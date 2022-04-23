@@ -97,7 +97,7 @@ function Share(props) {
 
   // Get member id
   const memId = localStorage.getItem('mem_id');
-  console.log(memId);
+
   const getShareItems = async () => {
     const response = await fetch(config.GET_SHARE_PRODS + `${memId}`, {
       method: 'GET',
