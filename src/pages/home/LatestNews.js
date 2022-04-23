@@ -144,7 +144,7 @@ function LatestNews(props) {
                       onClick={() => setSearch(!search)}
                     >
                       <img
-                        src={`http://localhost:3500/img/home/search-icon.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/search-icon.svg`}
                         alt="search"
                       />
                     </div>
@@ -156,7 +156,7 @@ function LatestNews(props) {
                       }}
                     >
                       <img
-                        src={`http://localhost:3500/img/home/filter-icon.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/filter-icon.svg`}
                         alt="filter"
                       />
                     </div>

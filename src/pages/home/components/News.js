@@ -26,7 +26,7 @@ function News(props) {
         <div className="no-result">
           <div className="search-btn ch-title-22">
             <img
-              src={`http://localhost:3500/img/home/search-icon.svg`}
+              src={`https://primeal.herokuapp.com/img/home/search-icon.svg`}
               alt="search-icon"
             />
             <span>查無符合條件的商品，請重新篩選或清空篩選條件</span>
@@ -51,7 +51,7 @@ function News(props) {
                 >
                   <div className="news-img">
                     <img
-                      src={'http://localhost:3500' + v.news_img_path}
+                      src={'https://primeal.herokuapp.com' + v.news_img_path}
                       alt="news"
                     />
                   </div>
@@ -64,7 +64,7 @@ function News(props) {
                       <div className="en-cont-14 news-tag">{v.news_cate}</div>
                       <div className="view-arrow">
                         <img
-                          src={`http://localhost:3500/img/home/index-arrowsm-black.svg`}
+                          src={`https://primeal.herokuapp.com/img/home/index-arrowsm-black.svg`}
                           alt="arrow"
                         />
                       </div>

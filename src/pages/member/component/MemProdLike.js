@@ -53,7 +53,8 @@ const MemProdLike = props => {
                       <img
                         src={
                           memLike.length !== 0
-                            ? 'http://localhost:3500/' + v.c_prod_img_path
+                            ? 'https://primeal.herokuapp.com/' +
+                              v.c_prod_img_path
                             : ''
                         }
                         alt="cube"

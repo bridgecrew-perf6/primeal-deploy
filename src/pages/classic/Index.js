@@ -692,7 +692,7 @@ function Index(props) {
 
                                 <img
                                   // src={require('./../../imgs/temp/classic-pro1.png')}
-                                  src={`http://localhost:3500${prod.c_prod_img_path}`}
+                                  src={`https://primeal.herokuapp.com${prod.c_prod_img_path}`}
                                   alt="product"
                                 />
                               </div>

@@ -135,7 +135,7 @@ function EvntsDetails(props) {
                   <div className="evnts-img">
                     <img
                       src={
-                        `http://localhost:3500` +
+                        `https://primeal.herokuapp.com` +
                           evntsDetail[0]?.evnts_img_path ?? ''
                       }
                       alt="events"
@@ -230,7 +230,7 @@ function EvntsDetails(props) {
                   <div className="pc-evnts-img">
                     <img
                       src={
-                        `http://localhost:3500` +
+                        `https://primeal.herokuapp.com` +
                           evntsDetail[0]?.evnts_img_path ?? ''
                       }
                       alt="events"

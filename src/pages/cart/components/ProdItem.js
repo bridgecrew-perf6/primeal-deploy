@@ -494,7 +494,7 @@ function ProdItem(props) {
                     <img
                       alt={v.cs_prod_img_path}
                       className="img-fluid"
-                      src={`http://localhost:3500${v.c_prod_img_path}`}
+                      src={`https://primeal.herokuapp.com${v.c_prod_img_path}`}
                     />
                   </div>
                 </div>
@@ -630,7 +630,7 @@ function ProdItem(props) {
                     <img
                       alt={v.cm_prod_img_path}
                       className="img-fluid"
-                      src={`http://localhost:3500${v.cm_prod_img_path}`}
+                      src={`https://primeal.herokuapp.com${v.cm_prod_img_path}`}
                     />
                   </div>
                 </div>

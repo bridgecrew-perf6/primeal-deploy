@@ -28,7 +28,7 @@ function Carousel(props) {
                   <Link to={'/share/items/' + v.share_item_id}>
                     <img
                       className="Cimg"
-                      src={'http://localhost:3500/' + '/' + v.share_imgPath}
+                      src={'https://primeal.herokuapp.com/' + v.share_imgPath}
                       alt=""
                     />
                   </Link>

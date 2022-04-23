@@ -22,7 +22,9 @@ function MemHead(props) {
       findMem(mem_id).then(obj => {
         setMemData(obj[0]);
         setImgSrc(
-          'http://localhost:3500/img/member' + '/' + obj[0].mem_photo_img_path
+          'https://primeal.herokuapp.com/img/member' +
+            '/' +
+            obj[0].mem_photo_img_path
         );
         memLike(mem_id).then(d => {
           setMemShare(d);
@@ -34,7 +36,9 @@ function MemHead(props) {
   const handleSubmitUpload = () => {
     const fd = new FormData(document.form1);
     memDoUpload(fd).then(img => {
-      setImgSrc('http://localhost:3500/img/member' + '/' + img.filename);
+      setImgSrc(
+        'https://primeal.herokuapp.com/img/member' + '/' + img.filename
+      );
       localStorage.setItem('mem_photo', img.filename);
       history.go(0);
     });
@@ -49,9 +53,9 @@ function MemHead(props) {
           className="memPhotoArea col-md-6 col-sm-24"
         >
           {/* {memData && memData.mem_photo_img_path ? ( */}
-            <div className="memPhoto">
-              <img className="memImg" src={imgSrc} alt="member-photo" />
-            </div>
+          <div className="memPhoto">
+            <img className="memImg" src={imgSrc} alt="member-photo" />
+          </div>
           {/* ) : (
             <img 
               src={'http://localhost:3500/img/member/member.png'}

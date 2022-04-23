@@ -245,12 +245,14 @@ function AsideRight(props) {
           <div className="layout-mem-photo-box">
             {mem_photo ? (
               <img
-                src={'http://localhost:3500/img/member/' + '/' + mem_photo}
+                src={
+                  'https://primeal.herokuapp.com/img/member/' + '/' + mem_photo
+                }
                 alt="member-photo"
               />
             ) : (
               <img
-                src={'http://localhost:3500/img/member/member.png'}
+                src={'https://primeal.herokuapp.com/img/member/member.png'}
                 alt="member-photo"
               />
             )}
@@ -281,7 +283,7 @@ function AsideRight(props) {
               history.push('/');
             }}
           >
-            <img src={'http://localhost:3500/img/home/logout.svg'} />
+            <img src={'https://primeal.herokuapp.com/img/home/logout.svg'} />
             <p
               className="ml-2 en-title-14-5"
               style={{ lineHeight: '24px', marginBottom: 0 }}

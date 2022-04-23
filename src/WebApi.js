@@ -1,6 +1,6 @@
 import { getAuthToken } from './utils';
 
-const BASE_URL = 'http://localhost:3500';
+const BASE_URL = 'https://primeal.herokuapp.com';
 
 //登入的API
 export const login = (mem_account, mem_pwd) => {

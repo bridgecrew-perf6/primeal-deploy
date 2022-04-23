@@ -46,14 +46,14 @@ function Title(props) {
             {changeBG ? (
               <Link to={'/'}>
                 <img
-                  src={`http://localhost:3500/img/home/logoLight.svg`}
+                  src={`https://primeal.herokuapp.com/img/home/logoLight.svg`}
                   alt="logo"
                 />
               </Link>
             ) : (
               <Link to={'/'}>
                 <img
-                  src={`http://localhost:3500/img/home/logo.svg`}
+                  src={`https://primeal.herokuapp.com/img/home/logo.svg`}
                   alt="logo"
                 />
               </Link>
@@ -135,14 +135,14 @@ function AsideLeft(props) {
             {changeBG ? (
               <Link to={'/'}>
                 <img
-                  src={`http://localhost:3500/img/home/logoLight.svg`}
+                  src={`https://primeal.herokuapp.com/img/home/logoLight.svg`}
                   alt="logo"
                 />
               </Link>
             ) : (
               <Link to={'/'}>
                 <img
-                  src={`http://localhost:3500/img/home/logo.svg`}
+                  src={`https://primeal.herokuapp.com/img/home/logo.svg`}
                   alt="logo"
                 />
               </Link>
@@ -202,7 +202,7 @@ function AsideRight(props) {
                 style={{ cursor: 'pointer' }}
               >
                 <img
-                  src={'http://localhost:3500/img/member/' + '/' + mem_photo}
+                  src={'https://primeal.herokuapp.com/img/member/' + '/' + mem_photo}
                   alt="member-photo"
                 />
               </div>
@@ -223,14 +223,14 @@ function AsideRight(props) {
                   <img
                     width="100%"
                     height="100%"
-                    src={'http://localhost:3500/img/home/login.svg'}
+                    src={'https://primeal.herokuapp.com/img/home/login.svg'}
                     alt="member-photo"
                   />
                 ) : (
                   <img
                     width="100%"
                     height="100%"
-                    src={'http://localhost:3500/img/home/loginDark.svg'}
+                    src={'https://primeal.herokuapp.com/img/home/loginDark.svg'}
                     alt="member-photo"
                   />
                 )}

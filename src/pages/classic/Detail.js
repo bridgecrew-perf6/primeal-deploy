@@ -286,7 +286,7 @@ function Detail(props) {
                           ? 'prod-img-box-img-ondetail'
                           : 'prod-img-box-img'
                       }
-                      src={`http://localhost:3500${data.c_prod_img_path}`}
+                      src={`https://primeal.herokuapp.com${data.c_prod_img_path}`}
                       alt="product-detail"
                     />
                   </div>
@@ -311,7 +311,7 @@ function Detail(props) {
                           }}
                         >
                           <img
-                            src={`http://localhost:3500${m.mtl_img_path}`}
+                            src={`https://primeal.herokuapp.com${m.mtl_img_path}`}
                             alt="material"
                           />
                         </div>
@@ -432,7 +432,7 @@ function Detail(props) {
                       </div>
                       <div className="material-img">
                         <img
-                          src={`http://localhost:3500${selectedMaterial.mtl_img_path}`}
+                          src={`https://primeal.herokuapp.com${selectedMaterial.mtl_img_path}`}
                           alt=""
                         />
                       </div>
@@ -564,7 +564,7 @@ function Detail(props) {
                             </div>
                           )}
                           <img
-                            src={`http://localhost:3500${r.c_prod_img_path}`}
+                            src={`https://primeal.herokuapp.com${r.c_prod_img_path}`}
                             alt="product-recommend"
                           />
                         </div>
@@ -695,7 +695,7 @@ function Detail(props) {
                       >
                         <div className="share-item-img-box">
                           <img
-                            src={`http://localhost:3500/${r.share_imgPath}`}
+                            src={`https://primeal.herokuapp.com/${r.share_imgPath}`}
                             alt="product-recommend"
                           />
                         </div>

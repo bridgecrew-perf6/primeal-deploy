@@ -30,7 +30,7 @@ function StepStart(props) {
         <div style={{ display: 'flex' }}>
           <AsideLeft />
           <div style={{ width: '100%' }}>
-            <Title title={'JUST FOR YOU'} setNavIsOpen={setNavIsOpen}/>
+            <Title title={'JUST FOR YOU'} setNavIsOpen={setNavIsOpen} />
             <div className="step">
               <div className="mycontainer min-hi">
                 <p className="en-title-14-10 link-bread-set set-row">
@@ -57,7 +57,7 @@ function StepStart(props) {
                     <div className="bento-img-center start-padding">
                       <img
                         className="setorderlist-set-bento-img"
-                        src={`http://localhost:3500/img/home/mealplan-bento.png`}
+                        src={`https://primeal.herokuapp.com/img/home/mealplan-bento.png`}
                         alt="product-image"
                       />
                     </div>

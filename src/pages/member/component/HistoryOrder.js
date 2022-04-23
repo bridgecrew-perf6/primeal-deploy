@@ -127,7 +127,7 @@ const HistoryOrder = () => {
                                   <img
                                     style={{ width: '100px' }}
                                     src={
-                                      'http://localhost:3500' +
+                                      'https://primeal.herokuapp.com' +
                                       info.c_prod_img_path
                                     }
                                   />
@@ -138,7 +138,7 @@ const HistoryOrder = () => {
                                   <img
                                     style={{ width: '100px' }}
                                     src={
-                                      'http://localhost:3500' +
+                                      'https://primeal.herokuapp.com' +
                                       info.cm_prod_img_path
                                     }
                                   />
@@ -149,7 +149,7 @@ const HistoryOrder = () => {
                                   <img
                                     style={{ width: '100px' }}
                                     src={
-                                      'http://localhost:3500/img/setorder/bento_img/default.png'
+                                      'https://primeal.herokuapp.com/img/setorder/bento_img/default.png'
                                     }
                                   />
                                 ) : (

@@ -211,7 +211,7 @@ function EvntsSignUp(props) {
                       <div className="evnts-img">
                         <img
                           src={
-                            `http://localhost:3500` +
+                            `https://primeal.herokuapp.com` +
                               evntsInfo[0]?.evnts_img_path ?? ''
                           }
                           alt="events"

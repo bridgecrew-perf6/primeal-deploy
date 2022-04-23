@@ -1,7 +1,7 @@
 import config from './Config';
 const TOKEN_NAME = 'token';
 const MEM_ID = 'mem_id';
-const BASE_URL = 'http://localhost:3500';
+const BASE_URL = 'https://primeal.herokuapp.com';
 
 export const setAuthToken = token => {
   localStorage.setItem(TOKEN_NAME, token);

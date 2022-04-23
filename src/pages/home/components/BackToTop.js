@@ -26,7 +26,7 @@ function BackToTop() {
       <div className="back-to-top d-none d-sm-block" onClick={scrollToTop}>
         <p className="back-to-top-text">Back To Top</p>
         <img
-          src={`http://localhost:3500/img/home/index-backtotop.svg`}
+          src={`https://primeal.herokuapp.com/img/home/index-backtotop.svg`}
           alt="back-to-top"
         />
       </div>

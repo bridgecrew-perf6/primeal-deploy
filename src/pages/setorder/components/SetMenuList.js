@@ -24,7 +24,7 @@ function SetMenuList(props) {
             <div className="lightbox-bento-img-element mx-auto">
               <img
                 className="setorderlist-set-bento-img"
-                src={`http://localhost:3500/img/setorder/bento_img/${
+                src={`https://primeal.herokuapp.com/img/setorder/bento_img/${
                   props.answer[props.index]?.bento_id
                 }.png`}
                 alt="product-image"

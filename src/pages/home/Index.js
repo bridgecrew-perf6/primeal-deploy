@@ -103,21 +103,21 @@ function Index(props) {
     if (start === 0) {
       processRef.current.innerText = 'Constructing...';
       cubeImgRef.current.src =
-        'http://localhost:3500/img/home/intro-constructing.svg';
+        'https://primeal.herokuapp.com/img/home/intro-constructing.svg';
       textImgRef.current.src =
-        'http://localhost:3500/img/home/intro-constructing-txt.svg';
+        'https://primeal.herokuapp.com/img/home/intro-constructing-txt.svg';
     } else if (start === 1) {
       processRef.current.innerText = 'Materializing...';
       cubeImgRef.current.src =
-        'http://localhost:3500/img/home/intro-materializing.svg';
+        'https://primeal.herokuapp.com/img/home/intro-materializing.svg';
       textImgRef.current.src =
-        'http://localhost:3500/img/home/intro-materializing-txt.svg';
+        'https://primeal.herokuapp.com/img/home/intro-materializing-txt.svg';
     } else if (start === 2) {
       processRef.current.innerText = 'Printing...';
       cubeImgRef.current.src =
-        'http://localhost:3500/img/home/intro-printing.svg';
+        'https://primeal.herokuapp.com/img/home/intro-printing.svg';
       textImgRef.current.src =
-        'http://localhost:3500/img/home/intro-printing-txt.svg';
+        'https://primeal.herokuapp.com/img/home/intro-printing-txt.svg';
     }
     start++;
   };
@@ -283,7 +283,7 @@ function Index(props) {
                   <div className="d-none d-sm-block">
                     <div className="pc-index-top">
                       <img
-                        src={`http://localhost:3500/img/home/pc-logo+text.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/pc-logo+text.svg`}
                         alt="pc-logo"
                       />
                     </div>
@@ -302,14 +302,14 @@ function Index(props) {
                     <div className="col-12 index-cube-img">
                       <img
                         ref={cubeImgRef}
-                        src={`http://localhost:3500/img/home/intro-constructing.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/intro-constructing.svg`}
                         alt="cube"
                       />
                     </div>
                     <div className="col-12 index-cube-txt">
                       <img
                         ref={textImgRef}
-                        src={`http://localhost:3500/img/home/intro-constructing-txt.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/intro-constructing-txt.svg`}
                         alt="description"
                       />
                     </div>
@@ -332,7 +332,7 @@ function Index(props) {
                   </Link>
                   <div className="view-product-arrow">
                     <img
-                      src={`http://localhost:3500/img/home/index-arrowsm.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/index-arrowsm.svg`}
                       alt="view-product"
                     />
                   </div>
@@ -343,7 +343,7 @@ function Index(props) {
                   </p>
                   <div className="vertical-line">
                     <img
-                      src={`http://localhost:3500/img/home/intro-vertical-line.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/intro-vertical-line.svg`}
                       alt="scroll"
                     />
                   </div>
@@ -372,7 +372,7 @@ function Index(props) {
                   </div>
                   <div className="about-img">
                     <img
-                      src={`http://localhost:3500/img/home/index-aboutus01.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/index-aboutus01.svg`}
                       alt="aboutus01"
                     />
                   </div>
@@ -398,7 +398,7 @@ function Index(props) {
                   </div>
                   <div className="about-img">
                     <img
-                      src={`http://localhost:3500/img/home/index-aboutus02.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/index-aboutus02.svg`}
                       alt="aboutus02"
                     />
                   </div>
@@ -422,7 +422,7 @@ function Index(props) {
                   </div>
                   <div className="about-img">
                     <img
-                      src={`http://localhost:3500/img/home/index-aboutus03.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/index-aboutus03.svg`}
                       alt="aboutus03"
                     />
                   </div>
@@ -455,7 +455,7 @@ function Index(props) {
                                 <div className="promotion-img">
                                   <img
                                     src={
-                                      `http://localhost:3500` +
+                                      `https://primeal.herokuapp.com` +
                                       v.c_prod_img_path
                                     }
                                     alt="tuna-sushi"
@@ -504,12 +504,12 @@ function Index(props) {
                     <div className="index-category-img d-flex justify-content-center">
                       <img
                         className="d-sm-none"
-                        src={`http://localhost:3500/img/home/jfy-mobile-img.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/jfy-mobile-img.svg`}
                         alt="just-for-you"
                       />
                       <img
                         className="d-none d-sm-block"
-                        src={`http://localhost:3500/img/home/jfy-pc-img.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/jfy-pc-img.svg`}
                         alt="just-for-you"
                       />
                     </div>
@@ -530,7 +530,7 @@ function Index(props) {
                   <div className="index-category-content">
                     <div className="index-category-img d-flex justify-content-center">
                       <img
-                        src={`http://localhost:3500/img/home/mealplan-bento.png`}
+                        src={`https://primeal.herokuapp.com/img/home/mealplan-bento.png`}
                         alt="just-for-you"
                         style={{
                           width: '60%',
@@ -571,7 +571,7 @@ function Index(props) {
                   <p className="en-cont-14">{jftFocus}</p>
                   <div className="view-product-arrow">
                     <img
-                      src={`http://localhost:3500/img/home/index-arrowsm-black.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/index-arrowsm-black.svg`}
                       alt="view-customization"
                     />
                   </div>
@@ -621,7 +621,10 @@ function Index(props) {
                           >
                             <div className="index-category-img news-img d-flex justify-content-center">
                               <img
-                                src={`http://localhost:3500` + v.news_img_path}
+                                src={
+                                  `https://primeal.herokuapp.com` +
+                                  v.news_img_path
+                                }
                                 alt="news"
                               />
                             </div>
@@ -663,7 +666,7 @@ function Index(props) {
                           >
                             <div className="index-category-img news-img d-flex justify-content-center">
                               <img
-                                src={`http://localhost:3500${v.evnts_img_path}`}
+                                src={`https://primeal.herokuapp.com${v.evnts_img_path}`}
                                 alt="news"
                               />
                             </div>
@@ -705,7 +708,10 @@ function Index(props) {
                           >
                             <div className="index-category-img shares-img d-flex justify-content-center">
                               <img
-                                src={`http://localhost:3500/` + v.share_imgPath}
+                                src={
+                                  `https://primeal.herokuapp.com/` +
+                                  v.share_imgPath
+                                }
                                 alt="news"
                               />
                             </div>
@@ -737,7 +743,7 @@ function Index(props) {
                   <div className="latest-news-pagination">
                     <div className="latest-news-left-arrow">
                       <img
-                        src={`http://localhost:3500/img/home/left.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/left.svg`}
                         alt="left-arrow"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
@@ -764,7 +770,7 @@ function Index(props) {
                     </div>
                     <div className="latest-news-right-arrow">
                       <img
-                        src={`http://localhost:3500/img/home/right.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/right.svg`}
                         alt="right-arrow"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
@@ -782,7 +788,7 @@ function Index(props) {
                   <div className="latest-news-pagination">
                     <div className="latest-news-left-arrow">
                       <img
-                        src={`http://localhost:3500/img/home/left.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/left.svg`}
                         alt="left-arrow"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
@@ -809,7 +815,7 @@ function Index(props) {
                     </div>
                     <div className="latest-news-right-arrow">
                       <img
-                        src={`http://localhost:3500/img/home/right.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/right.svg`}
                         alt="right-arrow"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
@@ -827,7 +833,7 @@ function Index(props) {
                   <div className="latest-news-pagination">
                     <div className="latest-news-left-arrow">
                       <img
-                        src={`http://localhost:3500/img/home/left.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/left.svg`}
                         alt="left-arrow"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
@@ -854,7 +860,7 @@ function Index(props) {
                     </div>
                     <div className="latest-news-right-arrow">
                       <img
-                        src={`http://localhost:3500/img/home/right.svg`}
+                        src={`https://primeal.herokuapp.com/img/home/right.svg`}
                         alt="right-arrow"
                         style={{ cursor: 'pointer' }}
                         onClick={() => {
@@ -890,7 +896,7 @@ function Index(props) {
                   </p>
                   <div className="view-product-arrow">
                     <img
-                      src={`http://localhost:3500/img/home/index-arrowsm-black.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/index-arrowsm-black.svg`}
                       alt="browse-news"
                     />
                   </div>
@@ -905,7 +911,7 @@ function Index(props) {
                     <div className="footer-to-product">
                       <div className="footer-top-img">
                         <img
-                          src={`http://localhost:3500/img/home/footer-toproduct-arrow02.svg`}
+                          src={`https://primeal.herokuapp.com/img/home/footer-toproduct-arrow02.svg`}
                           alt="to-product"
                           style={{ cursor: 'pointer' }}
                         />
@@ -919,7 +925,7 @@ function Index(props) {
                 </div>
                 <div className="footer-logo d-none d-md-block">
                   <img
-                    src={`http://localhost:3500/img/home/footer-pc-logo.svg`}
+                    src={`https://primeal.herokuapp.com/img/home/footer-pc-logo.svg`}
                     alt="footer-logo"
                   />
                 </div>
@@ -944,19 +950,19 @@ function Index(props) {
                 <div className="footer-social">
                   <div className="footer-social-icon">
                     <img
-                      src={`http://localhost:3500/img/home/facebook.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/facebook.svg`}
                       alt="facebook"
                     />
                   </div>
                   <div className="footer-social-icon">
                     <img
-                      src={`http://localhost:3500/img/home/twitter.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/twitter.svg`}
                       alt="twitter"
                     />
                   </div>
                   <div className="footer-social-icon">
                     <img
-                      src={`http://localhost:3500/img/home/instagram.svg`}
+                      src={`https://primeal.herokuapp.com/img/home/instagram.svg`}
                       alt="instagram"
                     />
                   </div>

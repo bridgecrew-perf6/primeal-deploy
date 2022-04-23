@@ -120,15 +120,18 @@ function SetOrderFinal(props) {
         .then(async d => {
           //
           setTimeout(async () => {
-            await fetch(`http://localhost:3500/member/api/get-cart-count`, {
-              method: `POST`,
-              headers: {
-                'content-type': 'application/json',
-              },
-              body: JSON.stringify({
-                mem_id: +localStorage.getItem('mem_id'),
-              }),
-            })
+            await fetch(
+              `https://primeal.herokuapp.com/member/api/get-cart-count`,
+              {
+                method: `POST`,
+                headers: {
+                  'content-type': 'application/json',
+                },
+                body: JSON.stringify({
+                  mem_id: +localStorage.getItem('mem_id'),
+                }),
+              }
+            )
               .then(res => res.json())
               .then(obj => {
                 localStorage.setItem('cart_count', obj.cart_count);
@@ -189,7 +192,7 @@ function SetOrderFinal(props) {
                         aria-controls="example-collapse-text"
                         aria-expanded={dateOpen}
                       ></div>
-                    
+
                       {dateOpen ? (
                         <img src="/img/cart/uparrow.svg" alt="up" />
                       ) : (
@@ -207,7 +210,7 @@ function SetOrderFinal(props) {
                         <div className="final_bento_day-img">
                           <img
                             className="final-bento-img"
-                            src={`http://localhost:3500/img/setorder/bento_img/${finalchoose[0].bento_id}.png`}
+                            src={`https://primeal.herokuapp.com/img/setorder/bento_img/${finalchoose[0].bento_id}.png`}
                             alt="product-image"
                           />
                         </div>
@@ -218,7 +221,7 @@ function SetOrderFinal(props) {
                         <div className="final_bento_day-img">
                           <img
                             className="final-bento-img"
-                            src={`http://localhost:3500/img/setorder/bento_img/${finalchoose[1].bento_id}.png`}
+                            src={`https://primeal.herokuapp.com/img/setorder/bento_img/${finalchoose[1].bento_id}.png`}
                             alt="product-image"
                           />
                         </div>
@@ -229,7 +232,7 @@ function SetOrderFinal(props) {
                         <div className="final_bento_day-img">
                           <img
                             className="final-bento-img"
-                            src={`http://localhost:3500/img/setorder/bento_img/${finalchoose[2].bento_id}.png`}
+                            src={`https://primeal.herokuapp.com/img/setorder/bento_img/${finalchoose[2].bento_id}.png`}
                             alt="product-image"
                           />
                         </div>
@@ -240,7 +243,7 @@ function SetOrderFinal(props) {
                         <div className="final_bento_day-img">
                           <img
                             className="final-bento-img"
-                            src={`http://localhost:3500/img/setorder/bento_img/${finalchoose[3].bento_id}.png`}
+                            src={`https://primeal.herokuapp.com/img/setorder/bento_img/${finalchoose[3].bento_id}.png`}
                             alt="product-image"
                           />
                         </div>
@@ -251,7 +254,7 @@ function SetOrderFinal(props) {
                         <div className="final_bento_day-img">
                           <img
                             className="final-bento-img"
-                            src={`http://localhost:3500/img/setorder/bento_img/${finalchoose[4].bento_id}.png`}
+                            src={`https://primeal.herokuapp.com/img/setorder/bento_img/${finalchoose[4].bento_id}.png`}
                             alt="product-image"
                           />
                         </div>
@@ -262,7 +265,7 @@ function SetOrderFinal(props) {
                         <div className="final_bento_day-img">
                           <img
                             className="final-bento-img"
-                            src={`http://localhost:3500/img/setorder/bento_img/${finalchoose[5].bento_id}.png`}
+                            src={`https://primeal.herokuapp.com/img/setorder/bento_img/${finalchoose[5].bento_id}.png`}
                             alt="product-image"
                           />
                         </div>
@@ -273,7 +276,7 @@ function SetOrderFinal(props) {
                         <div className="final_bento_day-img">
                           <img
                             className="final-bento-img"
-                            src={`http://localhost:3500/img/setorder/bento_img/${finalchoose[6].bento_id}.png`}
+                            src={`https://primeal.herokuapp.com/img/setorder/bento_img/${finalchoose[6].bento_id}.png`}
                             alt="product-image"
                           />
                         </div>

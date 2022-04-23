@@ -20,7 +20,7 @@ const Events = () => {
               <img
                 src={
                   events.length !== 0
-                    ? 'http://localhost:3500/' + v.evnts_img_path
+                    ? 'https://primeal.herokuapp.com/' + v.evnts_img_path
                     : ''
                 }
                 alt="cube"

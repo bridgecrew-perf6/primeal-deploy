@@ -53,7 +53,7 @@ function AsideRight(props) {
                 style={{ cursor: 'pointer' }}
               >
                 <img
-                  src={'http://localhost:3500/img/member/' + '/' + mem_photo}
+                  src={'https://primeal.herokuapp.com/img/member/' + '/' + mem_photo}
                   alt="member-photo"
                 />
               </div>
@@ -74,14 +74,14 @@ function AsideRight(props) {
                   <img
                     width="100%"
                     height="100%"
-                    src={'http://localhost:3500/img/home/login.svg'}
+                    src={'https://primeal.herokuapp.com/img/home/login.svg'}
                     alt="member-photo"
                   />
                 ) : (
                   <img
                     width="100%"
                     height="100%"
-                    src={'http://localhost:3500/img/home/loginDark.svg'}
+                    src={'https://primeal.herokuapp.com/img/home/loginDark.svg'}
                     alt="member-photo"
                   />
                 )}
@@ -119,7 +119,7 @@ function AsideRight(props) {
                   >
                     <div className="classic-history-img-box">
                       <img
-                        src={`http://localhost:3500${h.c_prod_img_path}`}
+                        src={`https://primeal.herokuapp.com${h.c_prod_img_path}`}
                         alt="history"
                       />
                     </div>

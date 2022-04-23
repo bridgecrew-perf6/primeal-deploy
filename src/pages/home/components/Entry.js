@@ -15,13 +15,13 @@ function Entry(props) {
           <div className="logo-area">
             <div className="entry-logo">
               <img
-                src={`http://localhost:3500/img/home/entry-logo.svg`}
+                src={`https://primeal.herokuapp.com/img/home/entry-logo.svg`}
                 alt="primeal-logo"
               />
             </div>
             <div className="ch-logo">
               <img
-                src={`http://localhost:3500/img/home/primeal-ch-logo.svg`}
+                src={`https://primeal.herokuapp.com/img/home/primeal-ch-logo.svg`}
                 alt="primeal-logo"
               />
             </div>

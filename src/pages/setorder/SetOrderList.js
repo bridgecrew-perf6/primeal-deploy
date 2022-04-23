@@ -329,7 +329,7 @@ function SetOrderList(props) {
                       <div className="bento-img-element mx-auto">
                         <img
                           className="setorderlist-set-bento-img"
-                          src={`http://localhost:3500/img/setorder/bento_img/${selectId}.png`}
+                          src={`https://primeal.herokuapp.com/img/setorder/bento_img/${selectId}.png`}
                           alt="product-image"
                         />
                       </div>

@@ -103,7 +103,7 @@ function NewsDetails(props) {
                   <div className="news-img">
                     <img
                       src={
-                        `http://localhost:3500` +
+                        `https://primeal.herokuapp.com` +
                           newsDetail[0]?.news_img_path ?? ''
                       }
                       alt="news"
@@ -123,7 +123,7 @@ function NewsDetails(props) {
                     <div className="pc-news-img">
                       <img
                         src={
-                          `http://localhost:3500` +
+                          `https://primeal.herokuapp.com` +
                             newsDetail[0]?.news_img_path ?? ''
                         }
                         alt="news"

@@ -18,7 +18,7 @@ function NavPage(props) {
           }}
         >
           <img
-            src={`http://localhost:3500/img/home/navbar-close.svg`}
+            src={`https://primeal.herokuapp.com/img/home/navbar-close.svg`}
             alt="close"
           />
         </div>
@@ -37,7 +37,7 @@ function NavPage(props) {
         <div className="navbar-content">
           <div className="nav-img">
             <img
-              src={`http://localhost:3500/img/home/nav-machine-0.5.svg`}
+              src={`https://primeal.herokuapp.com/img/home/nav-machine-0.5.svg`}
               alt="navbar-img"
             />
           </div>
