@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4709010b.css",
-    "main.js": "/static/js/main.9c20b746.js",
+    "main.js": "/static/js/main.4b7b08f3.js",
     "static/js/787.2ce397e7.chunk.js": "/static/js/787.2ce397e7.chunk.js",
     "static/media/SweiSpringCJKtc-Regular.ttf": "/static/media/SweiSpringCJKtc-Regular.6c51cc9f5d85fbfbae03.ttf",
     "static/media/NotoSansTC-Regular.otf": "/static/media/NotoSansTC-Regular.fe97a59b3a1e0b63d03b.otf",
@@ -57,11 +57,11 @@
     "static/media/plus.svg": "/static/media/plus.bdd0a20112e9654b2ee5549a7e1cab0f.svg",
     "static/media/minus.svg": "/static/media/minus.264b1a0f4996b8ab84e19e4ed0b92ba6.svg",
     "main.4709010b.css.map": "/static/css/main.4709010b.css.map",
-    "main.9c20b746.js.map": "/static/js/main.9c20b746.js.map",
+    "main.4b7b08f3.js.map": "/static/js/main.4b7b08f3.js.map",
     "787.2ce397e7.chunk.js.map": "/static/js/787.2ce397e7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4709010b.css",
-    "static/js/main.9c20b746.js"
+    "static/js/main.4b7b08f3.js"
   ]
 }
