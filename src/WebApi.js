@@ -7,6 +7,8 @@ export const login = (mem_account, mem_pwd) => {
   return fetch(`${BASE_URL}/member/api/auth-list`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -20,6 +22,8 @@ export const accountCheck = mem_account => {
   return fetch(`${BASE_URL}/member/api/accountCheck`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -32,6 +36,8 @@ export const vcodeCheck = (validCode, verify_code) => {
   return fetch(`${BASE_URL}/member/api/revise-pwd-vcode`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -45,6 +51,8 @@ export const resetPwd = (newPassword, mem_id) => {
   return fetch(`${BASE_URL}/member/api/reset-pwd`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -58,6 +66,8 @@ export const indexRevisePwd = (mem_id, revisePwd) => {
   return fetch(`${BASE_URL}/member/api/index-revise-pwd`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -84,6 +94,8 @@ export const findMem = mem_id => {
     method: 'POST',
     headers: {
       Authorization: `Bearer ${token}`,
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -97,6 +109,8 @@ export const registerMem = (registerData, verify_code) => {
   return fetch(`${BASE_URL}/member/api/member-register`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -120,6 +134,8 @@ export const registerMail = registerData => {
   return fetch(`${BASE_URL}/member/api/member-registermail`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -133,6 +149,8 @@ export const reviseMem = (memInfo, mem_id) => {
   return fetch(`${BASE_URL}/member/api/member-revise`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -146,6 +164,8 @@ export const eventsInfo = async () => {
   return await fetch(`${BASE_URL}/member/api/find-eventsInfo`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({}),
@@ -156,6 +176,8 @@ export const memCprodLike = async mem_id => {
   return await fetch(`${BASE_URL}/member/api/find-memlike`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -169,6 +191,8 @@ export const orderInfo = async mem_id => {
   return await fetch(`${BASE_URL}/member/api/historyOrder`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -181,6 +205,8 @@ export const chartInfo = async mem_id => {
   return await fetch(`${BASE_URL}/member/api/orderChart`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -194,6 +220,8 @@ export const memLike = async mem_id => {
   return await fetch(`${BASE_URL}/member/api/member-share`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
@@ -207,6 +235,8 @@ export const memSet = async mem_id => {
   return await fetch(`${BASE_URL}/member/api/memset`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
