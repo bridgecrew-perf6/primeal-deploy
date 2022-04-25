@@ -44,6 +44,8 @@ export const getCartCount = async mem_id => {
   await fetch(`${BASE_URL}/member/api/get-cart-count`, {
     method: 'POST',
     headers: {
+      'Access-Control-Allow-Origin': '*',
+      'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
       'content-type': 'application/json',
     },
     body: JSON.stringify({
